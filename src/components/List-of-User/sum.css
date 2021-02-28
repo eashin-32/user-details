@@ -1,0 +1,13 @@
+.container{
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 10%, rgba(9,9,121,1) 58%, rgba(2,0,36,1) 100%); 
+    margin-top: 0;
+    padding: 20px;
+}
+.container p{
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: end;
+}

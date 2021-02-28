@@ -1,0 +1,35 @@
+.card-container{
+    display: inline-block;
+    
+}
+.card-container img{
+    height: 100px;
+   border-radius: 50%;
+}
+.card-container h3{
+    border-top:1px solid gray ;
+    border-bottom:1px solid gray ;
+}
+.list-container{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 7px 15px;
+    width: 15rem;
+    height: 25rem;
+    overflow: hidden;
+}
+button{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid rgba(255, 253, 253, 0.075);
+   
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+button:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
